@@ -25,7 +25,8 @@ print('TN初始化开始')
 t_start = time.time()
 invnormalizer = InverseNormalizer(
     cache_dir="itn",
-    overwrite_cache=True
+    overwrite_cache=True,
+    enable_standalone_number=False
 )
 t_end = time.time()
 print('初始化完成，用时: %.3f'%(t_end-t_start))

@@ -41,4 +41,6 @@ WeTextProcessing.egg-info/
 build/
 dist/
 tn/*.far
+tn/*.fst
 itn/*.far
+itn/*.fst
